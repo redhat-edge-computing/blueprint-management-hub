@@ -6,6 +6,7 @@ metadata:
 spec:
   installPlanApproval: Automatic
   channel: preview
-  name: openshift-pipelines-operator-rh 
-  source: redhat-operators 
-  sourceNamespace: openshift-marketplace 
+  name: openshift-pipelines-operator-rh
+  source: redhat-operators
+  sourceNamespace: openshift-marketplace
+  startingCSV: openshift-pipelines-operator.v1.1.1
